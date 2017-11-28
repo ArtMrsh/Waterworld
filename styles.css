@@ -1,0 +1,36 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+.world {
+	position: relative;
+	width: 900px;
+	height: 700px;
+	background-color: #80cdc6;
+	margin: 0 auto;
+}
+.world-img {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+}
+.water {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	z-index: 2;
+}
+.ship {
+	position: absolute;
+	left: 35px;
+	bottom: 62px;
+	max-width: 270px;
+	z-index: 1;
+}
+.clouds {
+	position: absolute;
+	top: 0;
+	right: 0;
+	max-width: 550px;
+	z-index: 3;
+}
